@@ -1,0 +1,408 @@
+body{
+  width: 90%;
+  margin: auto;
+}
+
+
+.page1{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.page1-image{
+  width: 100%;
+  margin-left: 150px;
+}
+
+.page1-title{
+  position: absolute;
+  bottom: 0px;
+  top: 100px;
+	left: 560px;
+	width: 35%;
+}
+
+.page1-author{
+  position: absolute;
+  bottom: 0px;
+  top: 300px;
+	left: 600px;
+	width: 35%;
+}
+
+.goto{
+  position: absolute;
+  bottom: 0px;
+  top: 640px;
+	left: 860px;
+	width: 35%;
+}
+
+.goto2{
+  position: absolute;
+  bottom: 0px;
+  top: 590px;
+	left: 340px;
+	width: 35%;
+}
+
+.goto3{
+  position: absolute;
+  bottom: 0px;
+  top: 720px;
+	left: 400px;
+	width: 35%;
+}
+
+
+
+.page2{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.page2-image{
+  width: 100%;
+  margin-left: 150px;
+}
+
+.page2-title{
+  position: absolute;
+  bottom: 0px;
+  top: 180px;
+	left: 760px;
+	width: 35%;
+}
+
+.page2-content{
+  position: absolute;
+  bottom: 0px;
+  top: 300px;
+	left: 800px;
+	width: 35%;
+}
+
+.page2-content2{
+  position: absolute;
+  bottom: 0px;
+  top: 400px;
+	left: 750px;
+	width: 35%;
+}
+
+.page2-content3{
+  position: absolute;
+  bottom: 0px;
+  top: 500px;
+	left: 800px;
+	width: 35%;
+}
+
+.page3-image{
+  width: 20%;
+  margin-left: 150px;
+  zoom: 120%;
+}
+
+
+.page3-title{
+  position: absolute;
+  bottom: 0px;
+  top: 147px;
+  left: 380px;
+  width: 35%;
+  zoom: 120%;
+}
+
+.page3-text{
+  position: absolute;
+  background-color: white;
+  bottom: 0px;
+  top: 220px;
+  left: 380px;
+  width: 18%;
+  height: 20%;
+  transition: transform .5s;
+  zoom: 120%;
+}
+
+.page3-text:hover{
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.page3-coffee1{
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  top: 465px;
+  left: 400px;
+	-webkit-animation: slide-in-left 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+.page3-coffee2{
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  top: 620px;
+  left: 580px;
+  -webkit-animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.page3-coffee3{
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  top: 250px;
+  left: 900px;
+  -webkit-animation: slide-in-right 2.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.page3-coffee4{
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  top: 420px;
+  left: 1060px;
+  -webkit-animation: slide-in-right 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.page3-coffee5{
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  top: 600px;
+  left: 900px;
+  -webkit-animation: slide-in-right 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.page4-image{
+  width: 20%;
+  margin-left: 150px;
+  zoom: 120%;
+}
+
+.page4-titleright{
+  position: absolute;
+  bottom: 0px;
+  top: 147px;
+  left: 380px;
+  width: 35%;
+  zoom: 120%;
+}
+
+.page4-titleleft{
+  position: absolute;
+  bottom: 0px;
+  top: 147px;
+  left: 750px;
+  width: 35%;
+  zoom: 120%;
+}
+
+
+.page4-photo{
+  -webkit-animation: slit-in-vertical 0.45s ease-out both;
+}
+
+.container1{
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  top: 340px;
+  left: 430px;
+}
+
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  width: 0;;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container1:hover .overlay{
+  width: 40%;
+}
+
+.txt{
+  white-space: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 10px;
+  color: black;
+
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.container2{
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    top: 340px;
+    left: 837px;
+}
+
+.container2:hover .overlay{
+  width: 40%;
+  left: 200;
+
+}
+
+
+.page4-photo2{
+  -webkit-animation: slit-in-vertical 0.45s ease-out both;
+}
+
+@-webkit-keyframes slit-in-vertical {
+  0% {
+    -webkit-transform: translateZ(-800px) rotateY(90deg);
+            transform: translateZ(-800px) rotateY(90deg);
+    opacity: 0;
+  }
+  54% {
+    -webkit-transform: translateZ(-160px) rotateY(87deg);
+            transform: translateZ(-160px) rotateY(87deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateZ(0) rotateY(0);
+            transform: translateZ(0) rotateY(0);
+  }
+}
+
+.page5-image{
+  width: 100%;
+  margin-left: 150px;
+  zoom: 120%;
+}
+
+.page5-title{
+  position: absolute;
+  bottom: 0px;
+  top: 160px;
+  left: 380px;
+  width: 35%;
+  zoom: 120%;
+}
+
+.bubblewrap1{
+  display: block;
+  width: 100%;
+  height: auto;
+
+	-webkit-animation: scale-in-hor-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-in-hor-left {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+    opacity: 1;
+  }
+}
+
+
+.bubblewrap2{
+  display: block;
+  width: 100%;
+  height: auto;
+	-webkit-animation: scale-in-hor-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-in-hor-right {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+    opacity: 1;
+  }
+}
+
+.container3{
+  position: absolute;
+  top: 300px;
+  left: 390px;
+}
+
+.container3:hover .overlay2{
+  opacity: 1;
+}
+
+.container4{
+  position: absolute;
+  top: 300px;
+  left: 870px;
+}
+
+.container4:hover .overlay2{
+  opacity: 1;
+}
+
+.overlay2{
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 15px;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+}
